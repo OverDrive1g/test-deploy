@@ -23,7 +23,7 @@ module.exports = {
       host : '51.91.101.180',
       ref  : 'origin/master',
       repo : 'git@github.com:OverDrive1g/test-deploy.git',
-      path : '/var/www/production',
+      path : '/var/app/repositories',
       'post-deploy' : 'npm install && pm2 reload ecosystem.config.js --env production'
     }
   }
